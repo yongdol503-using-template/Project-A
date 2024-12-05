@@ -1,6 +1,6 @@
 mode: immediate
 silent: false
-branchName: "issue-${issue.number}/${issue.title,}"
+branchName: full
 autoLinkIssue: true
 autoCloseIssue: true
 autoDeleteBranch: true
