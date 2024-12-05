@@ -1,4 +1,4 @@
-mode: auto
+mode: immediate
 silent: false
 branchName: "issue-${issue.number}/${issue.title,}"
 autoLinkIssue: true
