@@ -1,0 +1,25 @@
+name: Create Branch on Issue Open
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create_branch:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Create branch for issue
+      uses: robvanderleek/create-issue-branch@main
+      autoLinkIssue: true
+      autoCloseIssue: true
+      autoDeleteBranch: true
+      branches:
+        - label: enhancement
+          prefix: feature/
+          skip: false
+        - label: bug
+          prefix: bugfix/
+          skip: false
+        - label: '*'
+          skip: true
