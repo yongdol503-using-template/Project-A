@@ -11,15 +11,5 @@ jobs:
     steps:
     - name: Create branch for issue
       uses: robvanderleek/create-issue-branch@main
-      autoLinkIssue: true
-      autoCloseIssue: true
-      autoDeleteBranch: true
-      branches:
-        - label: enhancement
-          prefix: feature/
-          skip: false
-        - label: bug
-          prefix: bugfix/
-          skip: false
-        - label: '*'
-          skip: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.PAT }}
