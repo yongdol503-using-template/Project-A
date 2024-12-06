@@ -4,14 +4,14 @@ on:
   issues:
     types: [opened, closed]
   pull_request:
-    types: [opened, synchronize]
+    types: [opened]
 
 jobs:
   create_branch:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Create branch for issue
+    - name: issue based action
       uses: robvanderleek/create-issue-branch@main
       env:
         GITHUB_TOKEN: ${{ secrets.PAT }}
