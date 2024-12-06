@@ -4,7 +4,6 @@ branchName: full
 autoLinkIssue: true
 autoCloseIssue: true
 autoDeleteBranch: true
-openPR: true
 copyIssueDescriptionToPR: true
 copyIssueLabelsToPR: true
 copyIssueAssigneeToPR: true
