@@ -1,13 +1,11 @@
-name: Create Branch on Issue Open
+name: Create Branch & PR on Issue Open
 
 on:
   issues:
     types: [opened, closed]
-  pull_request:
-    types: [opened]
 
 jobs:
-  create_branch:
+  create_branch_pr:
     runs-on: ubuntu-latest
 
     steps:
