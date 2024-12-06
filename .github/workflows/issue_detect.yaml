@@ -2,9 +2,9 @@ name: Create Branch on Issue Open
 
 on:
   issues:
-    types: [opened]
+    types: [opened, closed]
   pull_request:
-    types: [opened, merged]
+    types: [opened]
 
 jobs:
   create_branch:
