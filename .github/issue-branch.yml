@@ -7,10 +7,10 @@ autoDeleteBranch: true
 gitSafeReplacementChar: "-"
 branches:
   - label: bug
-    prefix: feature/
+    prefix: bugfix/
     skip: false
   - label: enhancement
-    prefix: bugfix/
+    prefix: feature/
     skip: false
   - label: '*'
     skip: true
