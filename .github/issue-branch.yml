@@ -4,6 +4,7 @@ branchName: full
 autoLinkIssue: true
 autoCloseIssue: true
 autoDeleteBranch: true
+openPR: true
 copyIssueDescriptionToPR: true
 copyIssueLabelsToPR: true
 copyIssueAssigneeToPR: true
@@ -13,9 +14,11 @@ gitSafeReplacementChar: "-"
 branches:
   - label: bug
     prefix: bugfix/
+    prTarget: main
     skip: false
   - label: enhancement
     prefix: feature/
+    prTaget: main
     skip: false
   - label: '*'
     skip: true
