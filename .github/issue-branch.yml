@@ -1,21 +1,17 @@
 mode: immediate
 silent: false
 branchName: full
+gitSafeReplacementChar: "-"
 autoLinkIssue: true
 autoCloseIssue: true
 autoDeleteBranch: true
-copyIssueDescriptionToPR: true
-copyIssueLabelsToPR: true
-copyIssueAssigneeToPR: true
-gitSafeReplacementChar: "-"
+defaultBranch: develop
 branches:
   - label: bug
     prefix: bugfix/
-    prTarget: main
     skip: false
   - label: enhancement
     prefix: feature/
-    prTaget: main
     skip: false
   - label: '*'
     skip: true
