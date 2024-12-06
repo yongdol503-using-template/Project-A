@@ -6,10 +6,10 @@ autoCloseIssue: true
 autoDeleteBranch: true
 gitSafeReplacementChar: "-"
 branches:
-  - label: enhancement
+  - label: bug
     prefix: feature/
     skip: false
-  - label: bug
+  - label: enhancement
     prefix: bugfix/
     skip: false
   - label: '*'
