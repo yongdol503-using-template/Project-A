@@ -2,7 +2,7 @@ name: Create Branch & PR on Issue Open
 
 on:
   issues:
-    types: [opened, closed, assigned]
+    types: [opened, closed]
   pull_request:
     types: [opened]
 
