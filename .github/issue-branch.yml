@@ -1,6 +1,7 @@
 mode: auto
 silent: false
 branchName: full
+defaultBranch: develop
 autoLinkIssue: true
 autoCloseIssue: true
 autoDeleteBranch: true
