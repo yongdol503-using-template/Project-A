@@ -8,8 +8,6 @@ openPR: true
 copyIssueDescriptionToPR: true
 copyIssueLabelsToPR: true
 copyIssueAssigneeToPR: true
-copyIssueProjectsToPR: true
-copyIssueMilestoneToPR: true
 gitSafeReplacementChar: "-"
 branches:
   - label: bug
