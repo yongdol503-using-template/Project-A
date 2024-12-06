@@ -4,6 +4,11 @@ branchName: full
 autoLinkIssue: true
 autoCloseIssue: true
 autoDeleteBranch: true
+copyIssueDescriptionToPR: true
+copyIssueLabelsToPR: true
+copyIssueAssigneeToPR: true
+copyIssueProjectsToPR: true
+copyIssueMilestoneToPR: true
 gitSafeReplacementChar: "-"
 branches:
   - label: bug
