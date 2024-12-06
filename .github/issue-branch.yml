@@ -1,4 +1,4 @@
-mode: immediate
+mode: auto
 silent: false
 branchName: full
 autoLinkIssue: true
